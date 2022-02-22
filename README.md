@@ -21,6 +21,7 @@ O foco deste teste é a garantia dos requisitos abaixo estejam funcionais na API
   - No arquivo, se for informada uma empresa ao contato, ela deve existir previamente no sistema. Caso não seja informado, o contato é registrado sem vinculo com a empresa.
 - [ ] Pesquisar contatos
   - Deve pesquisar em qualquer campo do contato (incluído o nome da empresa).
+  - O parâmetro de entrada deve ser apenas uma string (Semelhante a pesquisa do google onde tem apenas um campo texto)
   - A pesquisa deve ser paginada (Fique a vontade para utilizar qualquer estratégia).
 - [ ] Pesquisa de contatos da empresa
   - Poder consultar os contatos de uma agenda e que estejam em uma determinada empresa.
