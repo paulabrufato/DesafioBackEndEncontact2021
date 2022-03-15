@@ -23,8 +23,17 @@ O foco deste teste é a garantia dos requisitos abaixo estejam funcionais na API
   - Deve pesquisar em qualquer campo do contato (incluído o nome da empresa).
   - O parâmetro de entrada deve ser apenas uma string (Semelhante a pesquisa do google onde tem apenas um campo texto)
   - A pesquisa deve ser paginada (Fique a vontade para utilizar qualquer estratégia).
-- [ ] Pesquisa de contatos da empresa
-  - Poder consultar os contatos de uma agenda e que estejam em uma determinada empresa.
+- [ ] Pesquisa de contatos da empresa (A partir de uma pesquisa pelo nome ou parte do nome, ou seja, a entrada é um texto)
+  - Deve retornar os contatos agrupados pela agenda.
+    Exemplo do retorno: 
+```
+    Lista de
+    {
+      Id da agenda;
+      Nome da agenda;
+      Lista de contatos;
+    }
+```   
 
 ## O repositório
 
